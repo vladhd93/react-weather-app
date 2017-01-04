@@ -1,15 +1,9 @@
 var React = require('react');
-//var Message = React.createClass({
-//    render:function(){
-//
-//
-//    }
-//});
 
 var Message = ({temp,location})=>{
 
     return (
-        <p>
+        <p className="text-center">
             It is {temp} in {location}
         </p>
     );
